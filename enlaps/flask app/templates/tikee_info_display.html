@@ -1,0 +1,17 @@
+<!doctype html>
+{% if results.items() %}
+  <table border = 1>
+    {% for key, value in results.items() %}
+
+    <tr>
+       <th> {{ key }} </th>
+       <td> {{ value }} </td>
+    </tr>
+
+    {% endfor %}
+ </table>
+{% endif %}
+{% if not results.items() %}
+ <h1>No Tikee found</h1>
+{% endif %}
+ <a href="{{ url_for('.tikoo') }}">Go to Tikoo query page</a>

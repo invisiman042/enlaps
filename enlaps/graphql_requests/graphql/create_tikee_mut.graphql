@@ -1,0 +1,7 @@
+mutation Tikee($id: Int!, $serialNumber: SerialNumber) {
+    createTikee(id: $id, serialNumber: $serialNumber) {
+            errors {
+                message
+            }
+        }
+        }

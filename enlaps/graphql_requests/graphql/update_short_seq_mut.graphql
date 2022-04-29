@@ -1,0 +1,10 @@
+mutation Tikee($id: Int!, $description: String) {
+    updateShortSequence(id: $id, description: $description) {
+            errors {
+                message
+            }
+            shortSequence {
+                description
+            }
+        }
+        }

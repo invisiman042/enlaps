@@ -1,0 +1,10 @@
+<!doctype html>
+<title>MyTikoo</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+<h1>MyTikoo</h1>
+<ul>
+    <li><a href="{{ url_for('.tikoo') }}">Search Tikoo by id</a>
+    <li><a href="{{ url_for('.tikoo_sn') }}">Search Tikoo by sn</a>
+</ul>
+</nav>

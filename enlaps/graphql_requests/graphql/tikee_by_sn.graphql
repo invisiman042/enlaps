@@ -1,0 +1,17 @@
+query Tikees($search: [TikeeSearch!], $globalFetch: Boolean) {
+    tikees(search: $search, globalFetch: $globalFetch) {
+        nodes {
+            account {
+                id
+            }
+            serialNumber
+            id
+            prevAccountId
+            prevAccountName
+            hardwareRevision
+            mcuFirmwareRevision
+            socFirmwareRevision
+        }
+        totalCount
+    }
+}
