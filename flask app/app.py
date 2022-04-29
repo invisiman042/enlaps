@@ -29,3 +29,5 @@ def tikee_by_sn_query():
     response = get_query_response('tikee_by_sn', {"search": [{"field": "serial_number", "value": str(request.form['text'])}], "globalFetch": True})
     return render_template('tikee_sn_info_display.html', results=response['tikees']['nodes'][0])
     # return response
+
+'ok'
