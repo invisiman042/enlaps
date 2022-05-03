@@ -1,6 +1,6 @@
 import os, sys
-# sys.path.insert(1, r'C:\Users\33638\OneDrive\Bureau\PYTHON\enlaps')
-sys.path.insert(1, r'C:\Users\nicol\Desktop\enlaps_python\enlaps')
+sys.path.insert(1, r'C:\Users\33638\OneDrive\Bureau\PYTHON\enlaps')
+# sys.path.insert(1, r'C:\Users\nicol\Desktop\enlaps_python\enlaps')
 from flask import Flask, render_template, request, url_for
 from graphql_requests.main import get_query_response
 
