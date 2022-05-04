@@ -3,5 +3,6 @@ query Sequence($id: Int!) {
             id
             name
             description
+            nbImagesUploaded
         }
         }
