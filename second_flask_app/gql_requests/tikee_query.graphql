@@ -1,0 +1,54 @@
+query Tikee($id: Int!) {
+    tikee(id: $id) {
+        id
+        uuid
+        account {
+            id
+            name
+        }
+        serialNumber
+        longSequences {
+            id
+        }
+        shortSequences {
+            id
+        }
+        batteryVoltage
+        capabilities
+        connectionType
+        createdAt
+        energySaver
+        geolocation
+        hardwareRevision
+        infos {
+            customer
+        }
+        isUpdated
+        lastFirmwareVersion
+        lastSequence {
+            id
+        }
+        lowSdcardMailSent
+        lteConnectionInfos {
+            serviceName
+        }
+        mcuFirmwareRevision
+        mobileLocation
+        networkQuality {
+            connectionType
+        }
+        photoSets {
+            nodes {
+                account {
+                    id
+                }
+                createdAt
+            }
+        }
+        prevAccountId
+        prevAccountName
+        sdFreeSpace
+        simPhoneNumber
+        __typename
+        }
+    }

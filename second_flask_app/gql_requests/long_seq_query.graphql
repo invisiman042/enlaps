@@ -1,0 +1,30 @@
+query Sequence($id: Int!) {
+    longSequence(id: $id) {
+            id
+            name
+            compressionRatio
+            countPhotosetImages
+            createdAt
+            description
+            imageFormat
+            interval
+            isSync
+            infiniteDuration
+            keepLocalCopy
+            lastImage {
+                cnt
+            }
+            nbImagesOnSd
+            nbImagesUploaded
+            pairUploadedCount
+            resizedCompressionRatio
+            resizedResolution
+            sequenceId
+            shootingStatus
+            start
+            end
+            tikee {
+                serialNumber
+            }
+        }
+        }

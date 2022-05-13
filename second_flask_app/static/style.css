@@ -1,7 +1,83 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(54, 63, 78);
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
-.class {
+h2 {
+    color: white;
+}
 
+.home-header {
+    background-color: rgb(15, 26, 38);
+    color: rgb(51, 153, 255);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    height: 50px;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0, -50%);
+    margin: 0;
+    font-size: 2em;
+}
+
+.username {
+    color: rgb(51, 153, 255);
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(0, -50%);
+    margin: 0;
+    font-size: 1em;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: 1px rgb(51, 153, 255) solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: calc(2% + 80px);
+    transform: translate(0, -50%);
+}
+
+.error {
+    background-color: rgb(15, 26, 38);
+    color: rgb(51, 153, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+.tikee_page {
+    background-color: rgb(15, 26, 38);
+    color: rgb(51,153,255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.project_page {
+    background-color: rgb(15, 26, 38);
+    color: rgb(51,153,255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.tikee-form {
+    color: white;
+    margin: 20px;
+}
+.project-form {
+    color: white;
+    margin: 20px;
 }

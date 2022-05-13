@@ -1,0 +1,8 @@
+query Sequence($id: Int!) {
+    shortSequence(id: $id) {
+            id
+            name
+            description
+            nbImagesUploaded
+        }
+        }
